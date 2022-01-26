@@ -9,7 +9,7 @@ differentiating dicot and monocot root cross sections
 __author__ = 'Michael Gruenstaeudl <m.gruenstaeudl@fu-berlin.de>'
 __info__ = 'Image classification with machine learning for differentiating'\ 
            'dicot and monocot root cross sections'
-__version__ = '2022.01.26.1700'
+__version__ = '2022.01.26.1730'
 
 ##################################################
 # IMPORT OPERATIONS #
@@ -27,8 +27,8 @@ from matplotlib import pyplot
 
 # Root XS images
 img_width, img_height = 150, 150
-traindata_dir = '/home/michael_science/Desktop/TEMP/Dicot_monocot_rootXS/train_small/'
-testdata_dir = '/home/michael_science/Desktop/TEMP/Dicot_monocot_rootXS/test_small/'
+traindata_dir = '/home/michael_science/git/michaelgruenstaeudl_CNN_monocot_dicot_rootXS/_devel_/Dicot_monocot_rootXS/train_small/'
+testdata_dir = '/home/michael_science/git/michaelgruenstaeudl_CNN_monocot_dicot_rootXS/_devel_/Dicot_monocot_rootXS/test_small/'
 
 # Model configuration
 batch_size = 10
